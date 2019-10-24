@@ -81,7 +81,7 @@
 		
 				$.ajax({
                     type: "POST",
-                    url: "ajax/crud.php",
+                    url: "crud.php",
                     dataType : 'json',
                     data : {"crear_usuario":'1',"username":username,"password":password},
                     success: function(DatosCrud) {
@@ -102,7 +102,7 @@
 		
 				$.ajax({
                     type: "POST",
-                    url: "ajax/crud.php",
+                    url: "crud.php",
                     dataType : 'json',
                     data : {"eliminar_usuario":'1',"username":username,"password":password},
                     success: function(DatosCrud) {
@@ -123,7 +123,7 @@
 		
 				$.ajax({
                     type: "POST",
-                    url: "ajax/crud.php",
+                    url: "crud.php",
                     dataType : 'json',
                     data : {"editar_usuario":'1',"username":username,"password":password},
                     success: function(DatosCrud) {
@@ -144,7 +144,7 @@
 		
 				$.ajax({
                     type: "POST",
-                    url: "ajax/crud.php",
+                    url: "crud.php",
                     dataType : 'json',
                     data : {"leer_usuario":'1',"username":username,"password":password},
                     success: function(DatosCrud) {
